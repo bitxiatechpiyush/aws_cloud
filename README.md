@@ -1,1 +1,3 @@
-# aws_cloud
+djangorestframework 
+boto3 
+pymongo
