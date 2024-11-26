@@ -1,3 +1,7 @@
-djangorestframework 
-boto3 
-pymongo
+djangorestframework /
+
+
+boto3 /
+
+
+pymongo/
