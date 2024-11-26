@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Item</title>
+</head>
+<body>
+    <h1>Add Item to DynamoDB</h1>
+    <form action="/add-item/" method="post">
+        {% csrf_token %}
+        <label for="item_name">Item Name:</label>
+        <input type="text" name="item_name" id="item_name" required><br>
+        <label for="item_description">Item Description:</label>
+        <textarea name="item_description" id="item_description" required></textarea><br>
+        <button type="submit">Add Item</button>
+    </form>
+</body>
+</html>
